@@ -1,0 +1,18 @@
+[package]
+name = "cheap"
+version = "0.1.0"
+authors = ["Ben Samuel <ben@samuel.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.3"
+enum-display-derive = "0.1.1"
+clap = "2"
+json = "0.12.4"
+
+[[bin]]
+name = "cheap"
+test = false
+bench = false
